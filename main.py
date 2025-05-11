@@ -3,7 +3,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-from semantic_cache import SemanticCaching
+from semantic_cache.SemanticCache import SemanticCaching
 
 load_dotenv()
 
